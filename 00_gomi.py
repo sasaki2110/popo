@@ -1,12 +1,12 @@
 # さすがに保存するほどの内容もないから、しばらくはゴミでいいか。
 
-hello = lambda x, y="options":"Hello" + x + "yもあるでよ" + y
-print(hello("haroharo"))
+ss = [0, 1, 2, 3, 4, 5, 6, 7]
 
-result = filter(lambda x:int(x) % 2 == 0, "0123456789")
+print(ss)
 
-s = ""
-for c in result:
-    s += c
-else:
-    print(s)
+print(ss[1:4])
+ss[1:4] = [11, 12, 13, 14]
+print(ss)
+
+ss[1:4] = []
+print(ss)
